@@ -1,34 +1,52 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>
+      <a href="mailto:jeremymmcmahan@gmailcom" style="text-decoration: none; color: inherit;">
+        <i class="fas fa-envelope"></i> jeremymmcmahan@gmail.com
+      </a>
+    </p>
+    <p>
+      <a href="/assets/pdf/Jeremy_CV.pdf" target="_blank" style="text-decoration: none; color: $theme-color; font-weight: bold;">
+        <i class="ai ai-cv"></i> Download
+      </a>
+    </p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  enabled: false
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<p>
+  Hi! I am a <b>Computer Science PhD</b> graduate from the <a href="https://www.wisc.edu/" target="_blank">University of Wisconsin-Madison</a>, where I was advised by <a href="https://pages.cs.wisc.edu/~jerryzhu/" target="_blank">Jerry Zhu</a> and worked closely with <a href="https://qiaominxie.github.io" target="_blank">Qiaomin Xie</a> and <a href="https://pages.cs.wisc.edu/~yudongchen/" target="_blank">Yudong Chen</a>.
+</p>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p>
+  I am broadly interested in <span style="color: var(--global-theme-color); font-weight: bold;">algorithms under uncertainty</span>, with a focus on bridging the gap between classical combinatorial structures and data-driven decision making. Many of the problems and techniques I study lie at the intersection of <b>Combinatorial Optimization</b>, <b>Game Theory</b>, and <b>Reinforcement Learning</b>.
+</p>
+
+<p>
+  My research seeks to overcome intractability in modern sequential decision-making domains. To address this challenge, I have designed provably efficient approximation algorithms that guarantee agents can operate <i>safely</i>, <i>robustly</i>, and <i>fairly</i>—even in the face of uncertain inputs.
+</p>
+
+<div class="alert alert-success" role="alert" style="overflow: hidden; background-color: var(--global-theme-light-color); border-color: var(--global-theme-color); color: var(--global-theme-color);">
+  <b>I am currently on the job market for Research Scientist and Postdoc positions.</b>
+</div>

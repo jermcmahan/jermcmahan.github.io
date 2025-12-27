@@ -1,11 +1,9 @@
 ---
-layout: cv
-permalink: /cv/
-title: cv
+layout: page
+title: CV
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 4  # Adjust order to sit nicely (e.g., after Teaching, before Contact)
+permalink: /cv/
+description: In a moment, you will be redirected to a pdf of my CV!
+redirect: /assets/pdf/Jeremy_CV.pdf
 ---

@@ -1,12 +1,110 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+permalink: /Teaching/
+title: Teaching
+description: On this page, you can find each course I've worked on as well as select materials from each course.
 nav: true
-nav_order: 6
+nav_order: 3
+#toc:
+#  sidebar: right
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+---
+## Teaching Summary 
 
-Organize your courses by years, topics, or universities, however you like!
+<div class="row" style="margin-bottom: 40px;">
+    
+    <div class="col-sm-7">
+        <p>
+            My teaching experience ranges from Course Assistant to Instructor, spanning positions at <b>UIUC</b>, <b>UW-Madison</b>, and the <b>New Horizons Summer School</b> (sponsored by SIGACT and TTIC).
+        </p>
+
+        <p>
+            My teaching philosophy centers on breaking down complex topics to simplify learning. My favorite approach to building intuition is through the <b>power of analogy</b>: relating a new, abstract topic to one the students already understand.
+        </p>
+
+        <p>
+            I strongly believe in <b>open access</b> to education and am committed to making my course materials publicly available.
+        </p>
+    </div>
+
+    <div class="col-sm-5">
+        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 4px solid var(--global-theme-color);">
+            <h6 style="font-weight: bold; margin-bottom: 15px; color: #333;">Courses Taught:</h6>
+            
+            <ul style="font-size: 0.9rem; margin-bottom: 0; padding-left: 20px; line-height: 1.4;">
+
+                <li style="margin-bottom: 10px;">
+                    Game Theory, Optimization & Learning
+                </li>
+                
+                <li style="margin-bottom: 10px;">
+                    Introduction to Algorithms
+                </li>
+                
+                <li style="margin-bottom: 10px;">
+                    Introduction to Artificial Intelligence
+                </li>
+                
+                <li style="margin-bottom: 10px;">
+                    Introduction to Data Science
+                </li>
+
+                <li style="margin-bottom: 10px;">
+                    Introduction to Optimization
+                </li>
+
+                <li style="margin-bottom: 10px;">
+                    Algorithms and Models of Computation
+                </li>
+
+                </ul>
+        </div>
+    </div>
+
+</div>
+
+---
+## Selected Course Materials
+
+<div class="row" style="margin-top: 20px; margin-bottom: 20px;">
+  <div class="col-sm-6">
+    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color);">
+      <div class="card-body">
+        <h6 class="card-title" style="font-weight: bold;">Algorithms Lecture Recordings</h6>
+        <p class="card-text" style="font-size: 0.9rem;">
+            Complete lecture series from my time as instructor for <i>Introduction to Algorithms</i> at UW-Madison:
+        </p>
+        <a href="https://youtube.com/playlist?list=PLJq-M8V1ZfiYJXHEnwiskcrg5xyc4MTgi&si=vkx1t0R9uR0758rg" target="_blank" class="btn btn-sm" style="color: var(--global-theme-color); border-color: var(--global-theme-color);">
+          <i class="fab fa-youtube"></i> Watch Lectures
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color);">
+      <div class="card-body">
+        <h6 class="card-title" style="font-weight: bold;">MARL Theory Notes</h6>
+        <p class="card-text" style="font-size: 0.9rem;">
+            Lecture notes and slides from the Multi-Agent RL module of <i>Game Theory, Optimization & Learning</i> at UW-Madison:
+        </p>
+        <a href="/assets/pdf/CS839.zip" target="_blank" class="btn btn-sm" style="color: var(--global-theme-color); border-color: var(--global-theme-color);">
+          <i class="fas fa-file-archive"></i> Download ZIP
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+---
+## Courses
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --file teaching --query @* %}
+
+</div>

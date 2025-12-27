@@ -24,7 +24,38 @@
     {% endif %}
 
     <div class="container">
-      {{ footer_contents }}
+      <div class = "footer-social-icons">
+          {% include social.liquid %}
+      </div>
+
+      <div>
+          {{footer_contents}}
+      </div>
     </div>
   </footer>
 {% endif %}
+
+<style>
+  /* Force the list inside our footer-social-icons to display horizontally */
+  .footer-social-icons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  .footer-social-icons li {
+    display: inline-block;
+    padding: 0 25px; /* Adjust spacing between icons here */
+  }
+  
+  /* Icon styling: Grey -> Theme Color */
+  .footer-social-icons a {
+    color: #000000 !important;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .footer-social-icons a:hover {
+    color: var(--global-theme-color) !important; /* Moss Green */
+  }
+</style>

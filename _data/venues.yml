@@ -1,9 +1,38 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICML":
+  url: https://icml.cc/
+  #color: "#ff7f0e"
 
-"Vision":
-  color: "#009f36"
+"NeurIPS":
+  url: https://nips.cc/
+  #color: "#4daf4a"
+
+"AAAI":
+  url: https://aaai.org/
+  #color: "#e41a1c"
+
+"AISTATS":
+  url: https://aistats.org/
+  #color: "#984ea3"
+
+"APPROX":
+  url: https://approxconference.com/
+  #color: "#377eb8"
+
+"RLC":
+  url: https://rl-conference.cc/
+  #color: "#ff7f0e"
+
+"GAMES":
+  url: https://gametheorysociety.org/named-lectures-and-prizes/
+  #color: "#4daf4a"
+
+
+"CogSci":
+  url: https://cognitivesciencesociety.org/
+  #color: "#e41a1c"
+
+"ARXIV":
+  url: https://arxiv.org/
+  #color: "#984ea3"
+
