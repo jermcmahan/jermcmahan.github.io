@@ -11,28 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "On this page, you can find each of my papers and invited talks.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Research/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "On this page, you can find each course I&#39;ve worked on as well as select materials from each course.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Teaching/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "In a moment, you will be redirected to a pdf of my CV!",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-contact",
           title: "Contact",
-          description: "On this page, you can find all the best ways to find me.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Contact/";
