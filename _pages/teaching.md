@@ -2,7 +2,7 @@
 layout: page
 permalink: /Teaching/
 title: Teaching
-description: On this page, you can find each course I've worked on as well as select materials from each course.
+description: #On this page, you can find each course I've worked on as well as select materials from each course.
 nav: true
 nav_order: 3
 #toc:
@@ -10,21 +10,21 @@ nav_order: 3
 ---
 
 ---
-## Teaching Summary 
+# Teaching Summary 
 
-<div class="row" style="margin-bottom: 40px;">
+<div class="row" style="margin-top: 10px; margin-bottom: 40px;">
     
     <div class="col-sm-7">
         <p>
-            My teaching experience ranges from Course Assistant to Instructor, spanning positions at <b>UIUC</b>, <b>UW-Madison</b>, and the <b>New Horizons Summer School</b> (sponsored by SIGACT and TTIC).
+            My teaching experience ranges from Course Assistant to Instructor, spanning positions at <strong>UIUC</strong>, <strong>UW-Madison</strong>, and the <strong>New Horizons Summer School</strong> (sponsored by SIGACT and TTIC).
         </p>
 
         <p>
-            My teaching philosophy centers on breaking down complex topics to simplify learning. My favorite approach to building intuition is through the <b>power of analogy</b>: relating a new, abstract topic to one the students already understand.
+            My teaching philosophy centers on breaking down complex topics to simplify learning. My favorite approach to building intuition is through the <strong>power of analogy</strong>: relating a new, abstract topic to one the students already understand.
         </p>
 
         <p>
-            I strongly believe in <b>open access</b> to education and am committed to making my course materials publicly available.
+            I strongly believe in <strong>open access</strong> to education and am committed to making my course materials publicly available.
         </p>
     </div>
 
@@ -32,7 +32,7 @@ nav_order: 3
         <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 4px solid var(--global-theme-color);">
             <h6 style="font-weight: bold; margin-bottom: 15px; color: #333;">Courses Taught:</h6>
             
-            <ul style="font-size: 0.9rem; margin-bottom: 0; padding-left: 20px; line-height: 1.4;">
+            <ul style="font-size: 1rem; margin-bottom: 0; padding-left: 20px; line-height: 1.4;">
 
                 <li style="margin-bottom: 10px;">
                     Game Theory, Optimization & Learning
@@ -65,7 +65,7 @@ nav_order: 3
 </div>
 
 ---
-## Selected Course Materials
+# Selected Course Materials
 
 <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
   <div class="col-sm-6">
@@ -99,7 +99,7 @@ nav_order: 3
 </div>
 
 ---
-## Courses
+# Courses
 
 {% include bib_search.liquid %}
 

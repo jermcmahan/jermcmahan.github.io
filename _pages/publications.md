@@ -2,7 +2,7 @@
 layout: page
 permalink: /Research/
 title: Research
-description: On this page, you can find each of my papers and invited talks.
+description: #On this page, you can find each of my papers and invited talks.
 nav: true
 nav_order: 2
 #toc:
@@ -10,7 +10,7 @@ nav_order: 2
 ---
 
 ---
-## Research Summary
+# Research Summary
 
 <div class="research-summary" style="margin-bottom: 40px;">
   <p> 
@@ -24,15 +24,15 @@ nav_order: 2
         <i class="fas fa-network-wired" style="margin-right: 8px; opacity: 0.8;"></i> 
         Optimization under Uncertainty
       </h5>
-      <ul style="font-size: 0.95rem; line-height: 1.4; padding-left: 20px;">
+      <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
-          <b>Constrained RL:</b> Designed the first polynomial-time approximation algorithms for general Constrained MDPs.
+          <strong>Constrained RL:</strong> Designed the first polynomial-time approximation algorithms for general Constrained MDPs.
         </li>
         <li style="margin-bottom: 10px;">
-          <b>Stochastic Optimization:</b> Developed the first adaptive approximation algorithms for correlated Pandora’s Box problems.
+          <strong>Stochastic Optimization:</strong> Developed the first adaptive approximation algorithms for correlated Pandora’s Box problems.
         </li>
         <li>
-          <b>Online Scheduling:</b> Established the state-of-the-art competitive ratio for the multilevel aggregation with deadlines.
+          <strong>Online Scheduling:</strong> Established the state-of-the-art competitive ratio for the multilevel aggregation with deadlines.
         </li>
       </ul>
     </div>
@@ -42,15 +42,15 @@ nav_order: 2
         <i class="fas fa-chess" style="margin-right: 8px; opacity: 0.8;"></i> 
         Game-Theoretic MARL
       </h5>
-      <ul style="font-size: 0.95rem; line-height: 1.4; padding-left: 20px;">
+      <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
-          <b>Safe & Robust Equilibria:</b> Designed the first polynomial-time algorithms for computing anytime-constrained, adversarial-defense, and uncertainty-robust equilibria in Markov Games.
+          <strong>Safe & Robust Equilibria:</strong> Designed the first polynomial-time algorithms for computing anytime-constrained, adversarial-defense, and uncertainty-robust equilibria in Markov Games.
         </li>
         <li style="margin-bottom: 10px;">
-          <b>Adversarial Attacks:</b> Characterized optimal poisoning and misinformation attacks on MARL agents.
+          <strong>Adversarial Attacks:</strong> Characterized optimal poisoning and misinformation attacks on MARL agents.
         </li>
         <li>
-          <b>Incentivized Exploration:</b> Designed the first constant-regret mechanisms to align myopic agents with social welfare goals.
+          <strong>Incentivized Exploration:</strong> Designed the first constant-regret mechanisms to align myopic agents with social welfare goals.
         </li>
       </ul>
     </div>
@@ -59,7 +59,7 @@ nav_order: 2
 </div>
 
 ---
-## Papers
+# Papers
 
 Below, you can find each of my papers. <i>Unless otherwise noted, author names are ordered by contribution.</i>
 
@@ -67,7 +67,7 @@ Below, you can find each of my papers. <i>Unless otherwise noted, author names a
 
 {% include bib_search.liquid %}
 
----
+
 ### Conference Papers
 
 <div class="publications">
@@ -76,7 +76,7 @@ Below, you can find each of my papers. <i>Unless otherwise noted, author names a
 
 </div>
 
----
+
 ### Preprints and Working Papers
 
 <div class="publications">
@@ -85,7 +85,7 @@ Below, you can find each of my papers. <i>Unless otherwise noted, author names a
 
 </div>
 
----
+
 ### Theses and Technical Reports
 
 <div class="publications">
@@ -95,7 +95,7 @@ Below, you can find each of my papers. <i>Unless otherwise noted, author names a
 </div>
 
 ---
-## Invited Talks
+# Invited Talks
 
 <div class="publications">
 

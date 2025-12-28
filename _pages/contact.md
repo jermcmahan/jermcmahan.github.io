@@ -4,7 +4,7 @@ permalink: /Contact/
 title: Contact
 nav: true
 nav_order: 5
-description: On this page, you can find all the best ways to find me.
+description: 
 ---
 
 ---
@@ -15,8 +15,8 @@ description: On this page, you can find all the best ways to find me.
     justify-content: center; /* Centers them horizontally */
     flex-wrap: wrap;         /* Allows wrapping on mobile */
     gap: 30px;               /* Spacing between icons */
-    margin-top: 50px;        /* Space above the row */
-    margin-bottom: 50px;     /* Space below the row */
+    //margin-top: 10px;        /* Space above the row */
+    //margin-bottom: 10px;     /* Space below the row */
   }
 
   /* The Individual Links/Icons */
@@ -42,9 +42,9 @@ description: On this page, you can find all the best ways to find me.
 
 <div class="row mt-4">
     <div class="col-sm-8">
-        <p>The best way to reach me is by <a href = "mailto:jeremymmcmahan@gmail.com">jeremymmcmahan@gmail.com</a> or the form below! </p>
+        <p><span style="font-size: 1.2em">Reach me at <a href = "mailto:jeremymmcmahan@gmail.com">jeremymmcmahan@gmail.com</a> or the form below! </span></p>
 
-        <p>You can also keep up with my research and teaching here:</p>
+        <p><span style="font-size: 1.2em">You can keep up with my research and teaching here:</span></p>
         
         <div class="big-social-icons">{% include social.liquid %}</div>
     </div>
