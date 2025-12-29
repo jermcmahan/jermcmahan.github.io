@@ -9,8 +9,7 @@ nav_order: 3
 #  sidebar: right
 ---
 
----
-# Teaching Summary 
+## Teaching Summary 
 
 <div class="row" style="margin-top: 10px; margin-bottom: 40px;">
     
@@ -64,8 +63,7 @@ nav_order: 3
 
 </div>
 
----
-# Selected Course Materials
+## Selected Course Materials
 
 <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
   <div class="col-sm-6">
@@ -98,8 +96,7 @@ nav_order: 3
 
 </div>
 
----
-# Courses
+## Courses
 
 {% include bib_search.liquid %}
 

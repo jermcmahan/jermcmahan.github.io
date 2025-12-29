@@ -9,8 +9,24 @@ nav_order: 2
 #  sidebar: left
 ---
 
----
-# Research Summary
+<style>
+  /* 1. Style all H3s on this page (Conference Papers, Manuscripts) */
+  h3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--global-theme-color); /* Keeps your theme consistency */
+    
+    margin-top: 30px;    /* Space above the section */
+    margin-bottom: 10px; /* Space below (before the year) */
+    
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 5px;
+  }
+</style>
+
+## Research Summary
 
 <div class="research-summary" style="margin-bottom: 40px;">
   <p> 
@@ -58,8 +74,7 @@ nav_order: 2
   </div>
 </div>
 
----
-# Papers
+## Papers
 
 Below, you can find each of my papers. <i>Unless otherwise noted, author names are ordered by contribution.</i>
 
@@ -94,8 +109,7 @@ Below, you can find each of my papers. <i>Unless otherwise noted, author names a
 
 </div>
 
----
-# Invited Talks
+## Invited Talks
 
 <div class="publications">
 

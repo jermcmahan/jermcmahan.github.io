@@ -1558,3 +1558,54 @@ mjx-container[jax="CHTML"][display="true"] {
     line-height: 1.4;
 }
 
+/* =========================================
+   FINAL SECTION HEADER DESIGN
+   ========================================= */
+
+h2 {
+    /* 1. TYPOGRAPHY: Elegant over Aggressive */
+    color: #333;               /* Dark Grey (Not harsh black, not colored) */
+    font-weight: 400;          /* Medium Weight (Clean, not thick) */
+    margin-top: 40px;          /* Generous space above */
+    margin-bottom: 30px;       /* Space below */
+    padding-bottom: 10px;      
+    position: relative;
+    
+    /* 2. THE BASE LINE */
+    border-bottom: 1px solid var(--global-divider-color); /* Very subtle grey structure */
+}
+
+/* 3. THE THEME ACCENT */
+h2:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;              
+    left: 0;
+    width: 60px;               
+    height: 3px;               
+    background-color: var(--global-theme-color); /* The "Pocket Square" pop of color */
+    border-radius: 2px;       
+}
+
+/* =========================================
+   OVERRIDE: Fix "Year" headers in Publications
+   Reset the fancy section styles for the bibliography years
+   ========================================= */
+
+.publications h2, h2.bibliography {
+    color: var(--global-divider-color);
+    border-top: none;
+    border-bottom: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 300;
+    /* 2. Remove the "Accent Bar" */
+    &:after {
+        display: none;         /* Hides the green/purple bar */
+    }
+
+}

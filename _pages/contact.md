@@ -7,68 +7,141 @@ nav_order: 5
 description: 
 ---
 
----
 <style>
-  /* The Container: Uses Flexbox to center and space items */
+  /* =========================================
+     CONTACT PAGE STYLING
+     ========================================= */
+  /* Force the default page title to center */
+  .post-title {
+    text-align: center;
+  }
+
+  /* 1. SOCIAL ICONS (Refined) */
   .big-social-icons {
     display: flex;
-    justify-content: center; /* Centers them horizontally */
-    flex-wrap: wrap;         /* Allows wrapping on mobile */
-    gap: 30px;               /* Spacing between icons */
-    //margin-top: 10px;        /* Space above the row */
-    //margin-bottom: 10px;     /* Space below the row */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px; /* More breathing room below icons */
   }
 
-  /* The Individual Links/Icons */
   .big-social-icons a {
-    color: #000000 !important;  /* Force pure black by default */
-    font-size: 3rem;            /* Make them huge (matches About page) */
-    text-decoration: none;      /* Remove underlines */
-    transition: all 0.3s ease;  /* Smooth hover animation */
-    opacity: 1;                 /* Ensure they aren't faded */
+    color: #333 !important;     /* Softer dark grey (less harsh than #000) */
+    font-size: 2.5rem;          /* Slightly refined size */
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
 
-  /* Hover Effect: Turn Moss Green and scale up slightly */
   .big-social-icons a:hover {
-    color: var(--global-theme-color) !important;  /* Your theme color */
-    transform: scale(1.1);      /* Subtle pop effect */
+    color: var(--global-theme-color) !important;
+    transform: translateY(-4px); /* Lift effect matching your cards */
   }
   
-  /* Fix for FontAwesome/Academicons to ensure they take the size */
-  .big-social-icons i {
-    font-size: inherit;
+  .big-social-icons i { font-size: inherit; }
+
+
+  /* 2. THE CONTACT CARD (Matches Research/Pubs) */
+  .contact-card {
+    background-color: #ffffff;
+    padding: 40px;              /* Generous padding */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03), 
+                0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+
+  /* 3. THEME-STYLED FORM INPUTS */
+  /* Remove default Bootstrap Blue glow and use Theme Color */
+  .form-control {
+    background-color: #f9f9f9;  /* Light grey background for fields */
+    border: 1px solid #eee;
+    padding: 15px;              /* Taller, more comfortable inputs */
+    border-radius: 8px;
+  }
+
+  .form-control:focus {
+    background-color: #fff;
+    border-color: var(--global-theme-color);
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.05); /* Subtle ring instead of blue glare */
+  }
+  
+  /* Label styling */
+  label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* 4. THEME BUTTON */
+  .btn-theme-submit {
+    background-color: var(--global-theme-color);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;        /* Pill shape */
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+    width: 100%;                /* Full width on mobile */
+  }
+
+  .btn-theme-submit:hover {
+    background-color: #333;     /* Darken on hover */
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  /* Desktop tweak: Button goes back to normal width */
+  @media (min-width: 768px) {
+    .btn-theme-submit { width: auto; }
   }
 </style>
 
 <div class="row mt-4">
-    <div class="col-sm-8">
-        <p><span style="font-size: 1.2em">Reach me at <a href = "mailto:jeremymmcmahan@gmail.com">jeremymmcmahan@gmail.com</a> or the form below! </span></p>
-
-        <p><span style="font-size: 1.2em">You can keep up with my research and teaching here:</span></p>
+    <div class="col-md-8 mx-auto text-center">
         
-        <div class="big-social-icons">{% include social.liquid %}</div>
+        <p style="font-size: 1.3rem; line-height: 1.6; color: #555;">
+            Reach me at <a href="mailto:jeremymmcmahan@gmail.com" style="color: var(--global-theme-color); font-weight: bold; text-decoration: none;">jeremymmcmahan@gmail.com</a><br>
+            or use the form below.
+        </p>
+
+        <div class="big-social-icons">
+            {% include social.liquid %}
+        </div>
+
     </div>
 </div>
 
----
-
-<div class="row mt-4">
-    <div class="col-sm-8"> <h3 class="mb-4">Send me a message!</h3>
+<div class="row">
+    <div class="col-md-8 mx-auto">
         
-        <form action="https://formspree.io/f/xlgrvkyd" method="POST">
+        <div class="contact-card">
+            <h3 class="mb-4" style="font-weight: bold; color: #333;">Send a message</h3>
             
-            <div class="form-group">
-                <label for="email">Your Email</label>
-                <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required>
-            </div>
+            <form action="https://formspree.io/f/xlgrvkyd" method="POST">
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
 
-            <div class="form-group mt-3">
-                <label for="message">Message</label>
-                <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
-            </div>
+                <div class="form-group mt-4">
+                    <label for="message">Message</label>
+                    <textarea name="message" class="form-control" id="message" rows="6" required></textarea>
+                </div>
 
-            <button type="submit" class="btn btn-primary mt-3">Send</button>
-        </form>
-        
+                <div class="text-right mt-4">
+                    <button type="submit" class="btn btn-theme-submit">
+                        <i class="fas fa-paper-plane mr-2"></i> Send Message
+                    </button>
+                </div>
+                
+            </form>
+        </div>
+
     </div>
 </div>

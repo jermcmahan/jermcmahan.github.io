@@ -148,3 +148,21 @@
     </progress>
   {% endif %}
 </header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 1. Find the search button (al-folio usually uses id="search-toggle")
+    const searchButton = document.getElementById('search-toggle');
+    
+    // 2. Find the ninja-keys element (the hidden search modal)
+    const ninjaKeys = document.querySelector('ninja-keys');
+
+    // 3. If both exist, connect them!
+    if (searchButton && ninjaKeys) {
+      searchButton.addEventListener('click', function(event) {
+        event.preventDefault(); // Stop the link from jumping to the top of the page
+        ninjaKeys.open();       // Force the modal to open
+      });
+    }
+  });
+</script>
