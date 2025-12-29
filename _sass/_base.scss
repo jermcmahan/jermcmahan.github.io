@@ -1498,3 +1498,63 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+/* =========================================
+   CS PROFESSOR BIBLIOGRAPHY CARDS
+   Add to bottom of _sass/_base.scss or _pages.scss
+========================================= */
+
+/* Target individual list items inside the bibliography */
+.publications ol.bibliography > li,
+.publications ul.bibliography > li {
+    /* The Card Container */
+    background-color: --global-bg-color;  /* Clean white background */
+    padding: 25px;              /* Generous internal spacing so text breathes */
+    border-radius: 12px;        /* Modern, soft rounded corners */
+    margin-bottom: 25px;        /* Spacing between cards */
+    
+    /* Subtle Shadow for depth (High-end look) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03), 
+                0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0,0,0,0.05); /* Faint border for definition */
+
+    /* Animation setup */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+    /* OPTIONAL: Theme Accent Border on left edge */
+    /* Uncomment the next line to add a colored strip on the left */
+    //border-left: 5px solid var(--global-theme-color); 
+}
+
+/* Hover State: Subtle Lift */
+.publications ol.bibliography > li:hover,
+.publications ul.bibliography > li:hover {
+    transform: translateY(-4px); /* Moves up slightly */
+    /* Deeper shadow to enhance the lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08), 
+                0 8px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Ensure buttons/links inside the card respect the padding */
+.publications .bibblock {
+    margin-top: 15px; /* Gives space above the PDF/Code buttons */
+}
+
+/* If your theme uses numbered lists, ensure the number is inside the card padding */
+.publications ol.bibliography {
+    padding-left: 0; /* Reset default OL padding */
+    list-style-position: inside; /* Brings numbers inside the box */
+}
+
+/* Tighten up lists inside Bibliography Notes */
+.publications ol.bibliography > li ul, 
+.publications ul.bibliography > li ul,
+.publications ol.bibliography > li ol, 
+.publications ul.bibliography > li ol {
+    padding-left: 10px; /* Reduces default 40px indent to 20px */
+    margin-left: 0;
+    margin-top: 5px;    /* Optional: adds a tiny breath of air above the list */
+    margin-bottom: 1px;
+    line-height: 1.4;
+}
+
