@@ -6,8 +6,14 @@
 @use "sass:color";
 
 // Custom Colors
-$theme-color: #b509ac;//#38761d;
+$theme-color: #b509ac;//#5b9004; //#38761d;
+$theme-bg-color: #FAFAFA;
+$theme-text-color: #333333; //#383838;
+$theme-header-color: #2C2C2C;
+$theme-card-color: #FFFFFF;
+
 $theme-light-color: rgba($theme-color, 0.05);
+
 $moss-green: #556b2f;
 $leather-brown: #8b4513; 
 $soft-white: #fdfbf7;

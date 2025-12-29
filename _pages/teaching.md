@@ -27,39 +27,24 @@ nav_order: 3
         </p>
     </div>
 
-    <div class="col-sm-5">
-        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 4px solid var(--global-theme-color);">
-            <h6 style="font-weight: bold; margin-bottom: 15px; color: #333;">Courses Taught:</h6>
-            
-            <ul style="font-size: 1rem; margin-bottom: 0; padding-left: 20px; line-height: 1.4;">
-
-                <li style="margin-bottom: 10px;">
-                    Game Theory, Optimization & Learning
-                </li>
-                
-                <li style="margin-bottom: 10px;">
-                    Introduction to Algorithms
-                </li>
-                
-                <li style="margin-bottom: 10px;">
-                    Introduction to Artificial Intelligence
-                </li>
-                
-                <li style="margin-bottom: 10px;">
-                    Introduction to Data Science
-                </li>
-
-                <li style="margin-bottom: 10px;">
-                    Introduction to Optimization
-                </li>
-
-                <li style="margin-bottom: 10px;">
-                    Algorithms and Models of Computation
-                </li>
-
-                </ul>
-        </div>
+<div class="col-sm-5">
+    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color)">
+      
+      <div class="card-body">
+        <h6 class="card-title" style="font-weight: bold; color: var(--global-header-color);">Courses Taught</h6>
+        
+        <ul style="font-size: 1rem; padding-left: 1.2rem; margin-bottom: 0;">
+            <li class="card-text" style="font-size: 1rem; margin-bottom: 8px;">Game Theory, Optimization & Learning</li>
+            <li class="card-text" style="font-size: 1rem; margin-bottom: 8px;">Introduction to Algorithms</li>
+            <li class="card-text" style="font-size: 1rem; margin-bottom: 8px;">Introduction to Artificial Intelligence</li>
+            <li class="card-text" style="font-size: 1rem; margin-bottom: 8px;">Introduction to Data Science</li>
+            <li class="card-text" style="font-size: 1rem; margin-bottom: 8px;">Introduction to Optimization</li>
+            <li class="card-text" style="font-size: 1rem;">Algorithms and Models of Computation</li>
+        </ul>
+        
+      </div>
     </div>
+</div>
 
 </div>
 
@@ -69,7 +54,7 @@ nav_order: 3
   <div class="col-sm-6">
     <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color);">
       <div class="card-body">
-        <h6 class="card-title" style="font-weight: bold;">Algorithms Lecture Recordings</h6>
+        <h6 class="card-title" style="font-weight: bold; color: var(--global-header-color);">Algorithms Lecture Recordings</h6>
         <p class="card-text" style="font-size: 0.9rem;">
             Complete lecture series from my time as instructor for <i>Introduction to Algorithms</i> at UW-Madison:
         </p>
@@ -83,7 +68,7 @@ nav_order: 3
   <div class="col-sm-6">
     <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color);">
       <div class="card-body">
-        <h6 class="card-title" style="font-weight: bold;">MARL Theory Notes</h6>
+        <h6 class="card-title" style="font-weight: bold; color: var(--global-header-color);">MARL Theory Notes</h6>
         <p class="card-text" style="font-size: 0.9rem;">
             Lecture notes and slides from the Multi-Agent RL module of <i>Game Theory, Optimization & Learning</i> at UW-Madison:
         </p>

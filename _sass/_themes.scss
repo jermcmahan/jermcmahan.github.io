@@ -6,10 +6,11 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$theme-bg-color};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #333;
+  --global-text-color: #{$theme-text-color};
   --global-text-color-light: #{$grey-color};
+  --global-header-color: #{$theme-header-color};
   --global-theme-color: #{$theme-color};
   --global-hover-color: #{$theme-color};
   --global-theme-light-color: #{$theme-light-color};
@@ -19,7 +20,7 @@
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,0.08);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{$theme-card-color};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},

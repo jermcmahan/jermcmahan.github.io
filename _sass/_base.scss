@@ -877,7 +877,7 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: dashed 1px var(--global-card-bg-color);
       }
 
       div.abstract.hidden.open {
@@ -885,7 +885,7 @@ footer.sticky-bottom {
       }
     }
     div.award.hidden {
-      border: dashed 1px var(--global-bg-color);
+      border: dashed 1px var(--global-card-bg-color);
     }
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
@@ -1508,7 +1508,7 @@ mjx-container[jax="CHTML"][display="true"] {
 .publications ol.bibliography > li,
 .publications ul.bibliography > li {
     /* The Card Container */
-    background-color: --global-bg-color;  /* Clean white background */
+    background-color: var(--global-card-bg-color);  /* Clean white background */
     padding: 25px;              /* Generous internal spacing so text breathes */
     border-radius: 12px;        /* Modern, soft rounded corners */
     margin-bottom: 25px;        /* Spacing between cards */
@@ -1564,7 +1564,7 @@ mjx-container[jax="CHTML"][display="true"] {
 
 h2 {
     /* 1. TYPOGRAPHY: Elegant over Aggressive */
-    color: #333;               /* Dark Grey (Not harsh black, not colored) */
+    color: var(--global-header-color);               /* Dark Grey (Not harsh black, not colored) */
     font-weight: 400;          /* Medium Weight (Clean, not thick) */
     margin-top: 40px;          /* Generous space above */
     margin-bottom: 30px;       /* Space below */
@@ -1608,4 +1608,14 @@ h2:after {
         display: none;         /* Hides the green/purple bar */
     }
 
+}
+
+#bibsearch, 
+input.bibsearch-form-input {
+    background-color: var(--global-card-bg-color) !important;
+    color: var(--global-text-color) !important;
+}
+
+#bibsearch:focus {
+    border-color: var(--global-theme-color) !important;
 }
