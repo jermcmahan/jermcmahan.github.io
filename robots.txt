@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jermcmahan.github.io/sitemap.xml
+Sitemap: https://www.jeremymmcmahan.com/sitemap.xml
