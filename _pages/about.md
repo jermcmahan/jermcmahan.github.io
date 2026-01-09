@@ -16,7 +16,12 @@ profile:
     </p>
     <p>
       <a href="/assets/pdf/Jeremy_CV.pdf" target="_blank" style="text-decoration: none; color: $theme-color; font-weight: bold;">
-        <i class="ai ai-cv"></i> Download
+        <i class="ai ai-cv"></i> Curriculum Vitae
+      </a>
+    </p>
+    <p>
+      <a href="/assets/pdf/Research_Statement.pdf" target="_blank" style="text-decoration: none; color: $theme-color; font-weight: bold;">
+        <i class="fas fa-flask"></i> Research Statement
       </a>
     </p>
 
