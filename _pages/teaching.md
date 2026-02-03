@@ -28,7 +28,7 @@ nav_order: 3
     </div>
 
 <div class="col-sm-5">
-    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color)">
+    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color); border-radius: 15px">
       
       <div class="card-body">
         <h6 class="card-title" style="font-weight: bold; color: var(--global-header-color);">Courses Taught</h6>
@@ -52,7 +52,7 @@ nav_order: 3
 
 <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
   <div class="col-sm-6">
-    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color);">
+    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color); border-radius: 15px">
       <div class="card-body">
         <h6 class="card-title" style="font-weight: bold; color: var(--global-header-color);">Algorithms Lecture Recordings</h6>
         <p class="card-text" style="font-size: 0.9rem;">
@@ -66,7 +66,7 @@ nav_order: 3
   </div>
 
   <div class="col-sm-6">
-    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color);">
+    <div class="card h-100" style="border: 1px solid #e0e0e0; border-left: 4px solid var(--global-theme-color); border-radius: 15px">
       <div class="card-body">
         <h6 class="card-title" style="font-weight: bold; color: var(--global-header-color);">MARL Theory Notes</h6>
         <p class="card-text" style="font-size: 0.9rem;">

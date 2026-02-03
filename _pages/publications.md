@@ -30,7 +30,7 @@ nav_order: 2
 
 <div class="research-summary" style="margin-bottom: 40px;">
   <p> 
-    My research investigates the theoretical foundations of optimization and decision-making in uncertain environments. My work aims to overcome intractability barriers prevalent throughout modern problems via two core directions:
+    My research investigates the algorithmic foundations of decision-making in combinatorial, strategic, and uncertain environments. My work aims to overcome intractability barriers prevalent throughout modern problems via two core directions:
   </p>
 
   <div class="row mt-4">
@@ -42,7 +42,7 @@ nav_order: 2
       </h5>
       <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
-          <strong>Constrained RL:</strong> Designed the first polynomial-time approximation algorithms for general Constrained MDPs.
+          <strong>Constrained MDPs:</strong> Designed the first polynomial-time approximation algorithms for general Constrained MDPs.
         </li>
         <li style="margin-bottom: 10px;">
           <strong>Stochastic Optimization:</strong> Developed the first adaptive approximation algorithms for correlated Pandora’s Box problems.
@@ -72,7 +72,11 @@ nav_order: 2
     </div>
 
   </div>
+    <p> 
+    To see how these topics connect and future directions, check out my <a href="/assets/pdf/Research_Statement.pdf" target="_blank">Research Statement</a>.
+  </p>
 </div>
+
 
 ## Papers
 

@@ -19,11 +19,6 @@ profile:
         <i class="ai ai-cv"></i> Curriculum Vitae
       </a>
     </p>
-    <p>
-      <a href="/assets/pdf/Research_Statement.pdf" target="_blank" style="text-decoration: none; color: $theme-color; font-weight: bold;">
-        <i class="fas fa-flask"></i> Research Statement
-      </a>
-    </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -45,11 +40,9 @@ latest_posts:
 </p>
 
 <p>
-  I am broadly interested in <span style="color: var(--global-theme-color); font-weight: bold;">algorithms under uncertainty</span>, with a focus on bridging the gap between classical combinatorial structures and data-driven decision making. Many of the problems and techniques I study lie at the intersection of <strong>Combinatorial Optimization</strong>, <strong>Game Theory</strong>, and <strong>Reinforcement Learning</strong>.
-</p>
-
-<p>
-  My research seeks to overcome intractability in modern sequential decision-making domains. To address this challenge, I have designed provably efficient approximation algorithms that guarantee agents can operate <i>safely</i>, <i>robustly</i>, and <i>fairly</i>—even in the face of uncertain inputs.
+I design polynomial-time algorithms for <span style="color: var(--global-theme-color); font-weight: bold;">decision-making in combinatorial and strategic settings</span>.
+My research bridges <strong>Combinatorial Optimization</strong>, <strong>Algorithmic Game Theory</strong>, and <strong>Reinforcement Learning</strong> to develop approximation frameworks with provable performance guarantees for constrained, uncertain, and robust multi-agent sequential decision problems.
+My work has applications to routing, resource allocation, digital marketplaces, and safety-critical autonomous systems. I am also intersted in improving the combinatorial and strategic reasoning capabilities of AI agents.
 </p>
 
 <div class="alert alert-success" role="alert" style="overflow: hidden; background-color: var(--global-theme-light-color); border-color: var(--global-theme-color); color: var(--global-theme-color); text-align: center;">
