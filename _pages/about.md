@@ -42,6 +42,9 @@ latest_posts:
 <p>
 I design polynomial-time algorithms for <span style="color: var(--global-theme-color); font-weight: bold;">decision-making in combinatorial and strategic settings</span>.
 My research bridges <strong>Combinatorial Optimization</strong>, <strong>Algorithmic Game Theory</strong>, and <strong>Reinforcement Learning</strong> to develop approximation frameworks with provable performance guarantees for constrained, uncertain, and robust multi-agent sequential decision problems.
+</p>
+
+<p>
 My work has applications to routing, resource allocation, digital marketplaces, and safety-critical autonomous systems. I am also intersted in improving the combinatorial and strategic reasoning capabilities of AI agents.
 </p>
 
