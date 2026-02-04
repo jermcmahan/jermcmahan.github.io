@@ -45,7 +45,7 @@ nav_order: 2
           <strong>Constrained MDPs:</strong> Designed the first polynomial-time approximation algorithms for general Constrained MDPs.
         </li>
         <li style="margin-bottom: 10px;">
-          <strong>Stochastic Optimization:</strong> Developed the first adaptive approximation algorithms for correlated Pandora’s Box problems.
+          <strong>Stochastic Search:</strong> Developed the first adaptive approximation algorithms for correlated Pandora’s Box problems.
         </li>
         <li>
           <strong>Online Scheduling:</strong> Established the state-of-the-art competitive ratio for the multilevel aggregation with deadlines.

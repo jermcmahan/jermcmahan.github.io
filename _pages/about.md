@@ -45,7 +45,7 @@ My research bridges <strong>Combinatorial Optimization</strong>, <strong>Algorit
 </p>
 
 <p>
-My work has applications to routing, resource allocation, digital marketplaces, and safety-critical autonomous systems. I am also intersted in improving the combinatorial and strategic reasoning capabilities of AI agents.
+My work has applications to routing, resource allocation, digital marketplaces, and safety-critical autonomous systems. I am also interested in improving the combinatorial and strategic reasoning capabilities of AI agents.
 </p>
 
 <div class="alert alert-success" role="alert" style="overflow: hidden; background-color: var(--global-theme-light-color); border-color: var(--global-theme-color); color: var(--global-theme-color); text-align: center;">
