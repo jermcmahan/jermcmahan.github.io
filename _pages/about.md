@@ -40,8 +40,7 @@ latest_posts:
 </p>
 
 <p>
-I design polynomial-time algorithms for <span style="color: var(--global-theme-color); font-weight: bold;">decision-making in combinatorial and strategic settings</span>.
-My research bridges <strong>Combinatorial Optimization</strong>, <strong>Algorithmic Game Theory</strong>, and <strong>Reinforcement Learning</strong> to develop approximation frameworks with provable performance guarantees for constrained, uncertain, and robust multi-agent sequential decision problems.
+I study the <span style="color: var(--global-theme-color); font-weight: bold;">tractability of sequential decision-making</span> in <i>combinatorial</i> and <i>strategic</i> settings under <i>uncertainty</i>. My research develops polynomial-time approximation and learning algorithms with formal guarantees, and explores how learning can be integrated with classical optimization while preserving provable performance.
 </p>
 
 <p>

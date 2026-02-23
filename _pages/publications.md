@@ -30,7 +30,7 @@ nav_order: 2
 
 <div class="research-summary" style="margin-bottom: 40px;">
   <p> 
-    My research investigates the algorithmic foundations of decision-making in combinatorial, strategic, and uncertain environments. My work aims to overcome intractability barriers prevalent throughout modern problems via two core directions:
+    My research investigates the tractability of sequential decision-making in combinatorial and strategic settings under uncertainty. My work aims to overcome intractability barriers prevalent throughout modern problems via two core directions:
   </p>
 
   <div class="row mt-4">
@@ -56,7 +56,7 @@ nav_order: 2
     <div class="col-sm-6" style="padding-left: 15px;">
       <h5 style="color: var(--global-theme-color); font-weight: bold; margin-bottom: 15px;">
         <i class="fas fa-chess" style="margin-right: 8px; opacity: 0.8;"></i> 
-        Game-Theoretic MARL
+        Games under Uncertainty
       </h5>
       <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
