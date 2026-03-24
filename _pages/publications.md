@@ -30,7 +30,7 @@ nav_order: 2
 
 <div class="research-summary" style="margin-bottom: 40px;">
   <p> 
-    My research investigates the tractability of sequential decision-making in combinatorial and strategic settings under uncertainty. My work aims to overcome intractability barriers prevalent throughout modern problems via two core directions:
+    My research aims to overcome intractability barriers in decision-making under uncertainty to enable capable and reliable AI agents. My work sits at the intersection of combinatorial optimization, algorithmic game theory, and reinforcement learning — drawing on structural insights from CO, strategic reasoning from AGT, and adaptive learning from RL to develop principled algorithms with provable guarantees. My research spans two interconnected directions:
   </p>
 
   <div class="row mt-4">
@@ -38,7 +38,7 @@ nav_order: 2
     <div class="col-sm-6" style="padding-right: 15px;">
       <h5 style="color: var(--global-theme-color); font-weight: bold; margin-bottom: 15px;">
         <i class="fas fa-network-wired" style="margin-right: 8px; opacity: 0.8;"></i> 
-        Optimization under Uncertainty
+        Constrained Agent Planning
       </h5>
       <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
@@ -56,7 +56,7 @@ nav_order: 2
     <div class="col-sm-6" style="padding-left: 15px;">
       <h5 style="color: var(--global-theme-color); font-weight: bold; margin-bottom: 15px;">
         <i class="fas fa-chess" style="margin-right: 8px; opacity: 0.8;"></i> 
-        Games under Uncertainty
+        Robust Multi-Agent Systems
       </h5>
       <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">

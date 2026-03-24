@@ -40,11 +40,11 @@ latest_posts:
 </p>
 
 <p>
-I study the <span style="color: var(--global-theme-color); font-weight: bold;">tractability of sequential decision-making</span> in <i>combinatorial</i> and <i>strategic</i> settings under <i>uncertainty</i>. My research develops polynomial-time approximation and learning algorithms with formal guarantees, and explores how learning can be integrated with classical optimization while preserving provable performance.
+I develop algorithmic foundations for <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span> - agents that can solve complex decision-making tasks while operating safely under uncertainty and adversarial interactions. Capability and reliability share common intractability barriers: environment uncertainty and computational complexity. My work leverages <b>machine learning</b> to handle uncertainty and <b>worst-case algorithm design</b> to ensure performance and safety. This yields the first polynomial-time algorithms for general constrained and robust multi-agent reinforcement learning — enabling near-optimal agents that satisfy safety constraints and operate robustly, even in NP-hard domains.
 </p>
 
 <p>
-My work has applications to routing, resource allocation, digital marketplaces, and safety-critical autonomous systems. I am also interested in improving the combinatorial and strategic reasoning capabilities of AI agents.
+More broadly, these results show that reliability and capability can be tractably achieved simultaneously, and I'm excited to extend these principles to more general agent architectures and hybrid AI decision-making systems. 
 </p>
 
 <div class="alert alert-success" role="alert" style="overflow: hidden; background-color: var(--global-theme-light-color); border-color: var(--global-theme-color); color: var(--global-theme-color); text-align: center;">
