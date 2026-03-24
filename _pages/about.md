@@ -40,7 +40,7 @@ latest_posts:
 </p>
 
 <p>
-I develop algorithmic foundations for <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span> - agents that can solve complex decision-making tasks while operating safely under uncertainty and adversarial interactions. Capability and reliability share common intractability barriers: environment uncertainty and computational complexity. My work leverages <b>machine learning</b> to handle uncertainty and <b>worst-case algorithm design</b> to ensure performance and safety. This yields the first polynomial-time algorithms for general constrained and robust multi-agent reinforcement learning — enabling near-optimal agents that satisfy safety constraints and operate robustly, even in NP-hard domains.
+I develop algorithmic foundations for <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span> - agents that can solve complex decision-making tasks while operating safely under uncertainty and adversarial interactions. My work leverages <strong>machine learning</strong> to handle uncertainty and <strong>worst-case algorithm design</strong> to ensure performance and safety. This yields the first polynomial-time algorithms for general constrained and robust multi-agent reinforcement learning — overcoming intractability barriers to enable near-optimal agents that satisfy safety constraints and operate robustly, even in NP-hard domains.
 </p>
 
 <p>
