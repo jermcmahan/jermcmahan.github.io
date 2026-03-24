@@ -40,7 +40,7 @@ latest_posts:
 </p>
 
 <p>
-My research sits at the intersection of <strong>reinforcement learning</strong>, <strong>algorithmic game theory</strong>, and <strong>combinatorial optimization</strong> — developing tractable algorithms with provable guarantees for constrained and multi-agent <span style="color: var(--global-theme-color); font-weight: bold;">decision-making under uncertainty</span>. My results enable near-optimal agents that obey safety constraints and operate robustly, even in NP-hard and adversarial domains.
+My research sits at the intersection of <strong>reinforcement learning</strong>, <strong>algorithmic game theory</strong>, and <strong>combinatorial optimization</strong> — developing tractable algorithms and mathematical insights for constrained and multi-agent <span style="color: var(--global-theme-color); font-weight: bold;">decision-making under uncertainty</span>. My results enable near-optimal agents that obey safety constraints and operate robustly, even in NP-hard and adversarial domains.
 </p>
 
 <p>
