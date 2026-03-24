@@ -1,34 +1,34 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-03-23'
 papers:
+  m8robxcAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: Anytime-Constrained Equilibria in Polynomial Time
+    year: '2025'
   m8robxcAAAAJ:2osOgNQ5qMEC:
-    citations: 8
+    citations: 9
     title: Anytime-constrained reinforcement learning
+    year: '2024'
+  m8robxcAAAAJ:5nxA0vEk-isC:
+    citations: 6
+    title: 'Roping in Uncertainty: Robustness and Regularization in Markov Games'
+    year: '2024'
+  m8robxcAAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: 'Inception: Efficiently Computable Misinformation Attacks on Markov Games'
     year: '2024'
   m8robxcAAAAJ:9yKSN-GCB0IC:
     citations: 6
     title: A -competitive algorithm for the Multilevel Aggregation Problem with Deadlines
     year: '2021'
   m8robxcAAAAJ:IjCSPb-OGe4C:
-    citations: 21
+    citations: 25
     title: Optimal attack and defense for reinforcement learning
     year: '2024'
-  m8robxcAAAAJ:LkGwnXOMwfcC:
-    citations: 0
-    title: Polynomial-Time Approximability of Constrained Reinforcement Learning
-    year: '2025'
-  m8robxcAAAAJ:Se3iqnhoufwC:
-    citations: 0
-    title: Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (APPROX/RANDOM 2023)
-    year: '2023'
   m8robxcAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
     title: 'Noble Deceit: Optimizing Social Welfare for Myopic Multi-Armed Bandits'
     year: Unknown Year
-  m8robxcAAAAJ:UeHWp8X0CEIC:
-    citations: 6
-    title: On faking a Nash equilibrium
-    year: '2023'
   m8robxcAAAAJ:UebtZRa9Y70C:
     citations: 0
     title: Safe Multi-Agent Reinforcement Learning in Polynomial Time
@@ -37,10 +37,6 @@ papers:
     citations: 0
     title: 'Leibniz International Proceedings in Informatics (LIPIcs): Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (APPROX/RANDOM 2023)'
     year: '2023'
-  m8robxcAAAAJ:WF5omc3nYNoC:
-    citations: 5
-    title: 'Roping in uncertainty: Robustness and regularization in markov games'
-    year: '2024'
   m8robxcAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: 'VISER: A Tractable Solution Concept for Games with Information Asymmetry'
@@ -49,18 +45,18 @@ papers:
     citations: 3
     title: Deterministic policies for constrained reinforcement learning in polynomial time
     year: '2024'
-  m8robxcAAAAJ:_FxGoFyzp5QC:
-    citations: 0
-    title: Anytime-Constrained Equilibria in Polynomial Time
-    year: '2025'
   m8robxcAAAAJ:d1gkVwhDpl0C:
     citations: 18
     title: Approximating pandora's box with correlations
     year: '2021'
   m8robxcAAAAJ:eQOLeE2rZwMC:
-    citations: 9
+    citations: 10
     title: 'Various misleading visual features in misleading graphs: Do they truly deceive us?'
     year: '2024'
+  m8robxcAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: Polynomial-Time Approximability of Constrained Reinforcement Learning
+    year: '2025'
   m8robxcAAAAJ:qjMakFHDy7sC:
     citations: 2
     title: Minimally modifying a markov game to achieve any nash equilibrium and value
@@ -70,18 +66,14 @@ papers:
     title: Optimally Installing Strict Equilibria
     year: '2025'
   m8robxcAAAAJ:u-x6o8ySG0sC:
-    citations: 9
+    citations: 15
     title: Data poisoning to fake a nash equilibria for markov games
     year: '2024'
   m8robxcAAAAJ:u5HHmVD_uO8C:
     citations: 0
     title: Spectral Algorithms and Unique Games
     year: '2019'
-  m8robxcAAAAJ:ufrVoPGSRksC:
-    citations: 0
-    title: 'Inception: Efficiently Computable Misinformation Attacks on Markov Games'
-    year: '2024'
   m8robxcAAAAJ:zYLM7Y9cAGgC:
-    citations: 41
+    citations: 43
     title: Reward poisoning attacks on offline multi-agent reinforcement learning
     year: '2023'
