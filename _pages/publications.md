@@ -30,7 +30,7 @@ nav_order: 2
 
 <div class="research-summary" style="margin-bottom: 40px;">
   <p> 
-    My research aims to overcome intractability barriers in <strong>decision-making under uncertainty</strong> to enable <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span>. Capability - solving constrained, combinatorial, and multi-agent problems - and reliablity - operating safely and robustly - both face <i>uncertainty</i> and <i>computational complexity</i>. I tackle both by leveraging <b>machine learning</b> to handle uncertainty while incorporating <b>worst-case algorithm design</b> to ensure performance and safety. This approach yielded answers to long-standing open questions in constrained and multi-agent reinforcement learning.  
+    My research aims to overcome intractability barriers in <strong>decision-making under uncertainty</strong> to enable <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span>. Capability - solving constrained, combinatorial, and multi-agent problems - and reliablity - operating safely and robustly - both face <i>uncertainty</i> and <i>computational complexity</i>. I tackle both by leveraging <strong>machine learning</strong> to handle uncertainty while incorporating <strong>worst-case algorithm design</strong> to ensure performance and safety. This approach yielded answers to long-standing open questions in constrained and multi-agent reinforcement learning.  
  My research spans two interconnected directions:
   </p>
 
@@ -43,7 +43,7 @@ nav_order: 2
       </h5>
       <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
-          <strong>Constrained MDPs:</strong> Designed the first polynomial-time approximation algorithms for general Constrained MDPs.
+          <strong>Constrained MDPs:</strong> Designed the first polynomial-time approximation and learning algorithms for general Constrained MDPs.
         </li>
         <li style="margin-bottom: 10px;">
           <strong>Stochastic Search:</strong> Developed the first adaptive approximation algorithms for correlated Pandora’s Box problems.
@@ -61,7 +61,7 @@ nav_order: 2
       </h5>
       <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
-          <strong>Safe & Robust Equilibria:</strong> Designed the first polynomial-time algorithms for computing anytime-constrained, adversarial-defense, and uncertainty-robust equilibria in Markov Games.
+          <strong>Safe & Robust Equilibria:</strong> Designed the first polynomial-time planning and learning algorithms for computing anytime-constrained, adversarial-defense, and uncertainty-robust equilibria in Markov Games.
         </li>
         <li style="margin-bottom: 10px;">
           <strong>Adversarial Attacks:</strong> Characterized optimal poisoning and misinformation attacks on MARL agents.
