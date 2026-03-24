@@ -73,9 +73,6 @@ nav_order: 2
     </div>
 
   </div>
-    <p> 
-    To see how these topics connect and future directions, check out my <a href="/assets/pdf/Research_Statement.pdf" target="_blank">Research Statement</a>.
-  </p>
 </div>
 
 
