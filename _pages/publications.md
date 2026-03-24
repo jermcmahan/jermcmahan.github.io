@@ -30,7 +30,8 @@ nav_order: 2
 
 <div class="research-summary" style="margin-bottom: 40px;">
   <p> 
-    My research aims to overcome intractability barriers in decision-making under uncertainty to enable capable and reliable AI agents. My work sits at the intersection of combinatorial optimization, algorithmic game theory, and reinforcement learning — drawing on structural insights from CO, strategic reasoning from AGT, and adaptive learning from RL to develop principled algorithms with provable guarantees. My research spans two interconnected directions:
+    My research aims to overcome intractability barriers in <strong>decision-making under uncertainty</strong> to enable <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span>. Capability - solving constrained, combinatorial, and multi-agent problems - and reliablity - operating safely and robustly - both face <i>uncertainty</i> and <i>computational complexity</i>. I tackle both by leveraging <b>machine learning</b> to handle uncertainty while incorporating <b>worst-case algorithm design</b> to ensure performance and safety. This approach yielded answers to long-standing open questions in constrained and multi-agent reinforcement learning.  
+ My research spans two interconnected directions:
   </p>
 
   <div class="row mt-4">

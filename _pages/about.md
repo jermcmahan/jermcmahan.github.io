@@ -40,11 +40,11 @@ latest_posts:
 </p>
 
 <p>
-I develop algorithmic foundations for <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span> - agents that can solve complex decision-making tasks while operating safely under uncertainty and adversarial interactions. My work leverages <strong>machine learning</strong> to handle uncertainty and <strong>worst-case algorithm design</strong> to ensure performance and safety. This yields the first polynomial-time algorithms for general constrained and robust multi-agent reinforcement learning — overcoming intractability barriers to enable near-optimal agents that satisfy safety constraints and operate robustly, even in NP-hard domains.
+My research sits at the intersection of <b>reinforcement learning</b>, <b>algorithmic game theory</b>, and <b>combinatorial optimization</b> — developing tractable algorithms with provable guarantees for constrained and multi-agent <span style="color: var(--global-theme-color); font-weight: bold;">decision-making under uncertainty</span>. My results enable near-optimal agents that obey safety constraints and operate robustly, even in NP-hard and adversarial domains.
 </p>
 
 <p>
-More broadly, these results show that reliability and capability can be tractably achieved simultaneously, and I'm excited to extend these principles to more general agent architectures and hybrid AI decision-making systems. 
+More broadly, I am interested in principled ways to combine <b>machine learning</b> and <b>worst-case algorithm design</b> to create <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span>.
 </p>
 
 <div class="alert alert-success" role="alert" style="overflow: hidden; background-color: var(--global-theme-light-color); border-color: var(--global-theme-color); color: var(--global-theme-color); text-align: center;">
