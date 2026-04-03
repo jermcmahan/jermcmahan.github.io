@@ -36,15 +36,15 @@ latest_posts:
 
 
 <p>
-  Hi! I am a <strong>Computer Science PhD</strong> graduate from the <a href="https://www.wisc.edu/" target="_blank">University of Wisconsin-Madison</a>, where I was advised by <a href="https://pages.cs.wisc.edu/~jerryzhu/" target="_blank">Jerry Zhu</a> and worked closely with <a href="https://qiaominxie.github.io" target="_blank">Qiaomin Xie</a> and <a href="https://pages.cs.wisc.edu/~yudongchen/" target="_blank">Yudong Chen</a>.
+  Hi! I recently completed my <strong>PhD in Computer Science</strong> at the <a href="https://www.wisc.edu/" target="_blank">University of Wisconsin-Madison</a>, where I was advised by <a href="https://pages.cs.wisc.edu/~jerryzhu/" target="_blank">Jerry Zhu</a> and worked closely with <a href="https://qiaominxie.github.io" target="_blank">Qiaomin Xie</a> and <a href="https://pages.cs.wisc.edu/~yudongchen/" target="_blank">Yudong Chen</a>.
 </p>
 
 <p>
-My research sits at the intersection of <strong>reinforcement learning</strong>, <strong>algorithmic game theory</strong>, and <strong>combinatorial optimization</strong> — developing tractable algorithms and mathematical insights for constrained and multi-agent <span style="color: var(--global-theme-color); font-weight: bold;">decision-making under uncertainty</span>. My results enable near-optimal agents that obey safety constraints and operate robustly, even in NP-hard and adversarial domains.
+My research lies at the intersection of <strong>Approximation Algorithms</strong>, <strong>Reinforcement Learning Theory</strong>, and <strong>Algorithmic Game Theory</strong> — overcoming intractability barriers facing <span style="color: var(--global-theme-color); font-weight: bold;"> sequential decision-making under uncertainty</span>. My algorithms enable near-optimal agents that provably obey safety constraints and operate robustly, even in NP-hard and adversarial domains.
 </p>
 
 <p>
-More broadly, I am interested in principled ways to combine <strong>machine learning</strong> and <strong>worst-case algorithm design</strong> to create <span style="color: var(--global-theme-color); font-weight: bold;">capable and reliable AI agents</span>.
+More broadly, I am interested in principled ways to combine <strong>machine learning</strong> and <strong>worst-case algorithm design</strong> to ensure <span style="color: var(--global-theme-color); font-weight: bold;">tractable and reliable AI decision-making</span>.
 </p>
 
 <div class="alert alert-success" role="alert" style="overflow: hidden; background-color: var(--global-theme-light-color); border-color: var(--global-theme-color); color: var(--global-theme-color); text-align: center;">

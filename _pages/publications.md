@@ -39,7 +39,7 @@ nav_order: 2
     <div class="col-sm-6" style="padding-right: 15px;">
       <h5 style="color: var(--global-theme-color); font-weight: bold; margin-bottom: 15px;">
         <i class="fas fa-network-wired" style="margin-right: 8px; opacity: 0.8;"></i> 
-        Safe and Constrained Agent Planning
+        Optimization under Uncertainty
       </h5>
       <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
@@ -57,7 +57,7 @@ nav_order: 2
     <div class="col-sm-6" style="padding-left: 15px;">
       <h5 style="color: var(--global-theme-color); font-weight: bold; margin-bottom: 15px;">
         <i class="fas fa-chess" style="margin-right: 8px; opacity: 0.8;"></i> 
-        Robust Multi-Agent Systems
+        Games under Uncertainty
       </h5>
       <ul style="font-size: 1rem; line-height: 1.4; padding-left: 20px;">
         <li style="margin-bottom: 10px;">
