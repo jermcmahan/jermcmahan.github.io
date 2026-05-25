@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-17'
+  last_updated: '2026-05-25'
 papers:
   m8robxcAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -9,8 +9,12 @@ papers:
     citations: 9
     title: Anytime-constrained reinforcement learning
     year: '2024'
+  m8robxcAAAAJ:3fE2CSJIrl8C:
+    citations: 10
+    title: "Thirty-Seventh AAAI Conference on Artificial Intelligence, AAAI 2023, Thirty-Fifth Conference on Innovative Applications of Artificial Intelligence, IAAI 2023, Thirteenth \u2026"
+    year: '2023'
   m8robxcAAAAJ:5nxA0vEk-isC:
-    citations: 6
+    citations: 8
     title: 'Roping in Uncertainty: Robustness and Regularization in Markov Games'
     year: '2024'
   m8robxcAAAAJ:8k81kl-MbHgC:
@@ -22,7 +26,7 @@ papers:
     title: A -competitive algorithm for the Multilevel Aggregation Problem with Deadlines
     year: '2021'
   m8robxcAAAAJ:IjCSPb-OGe4C:
-    citations: 26
+    citations: 28
     title: Optimal attack and defense for reinforcement learning
     year: '2024'
   m8robxcAAAAJ:Tyk-4Ss8FVUC:
