@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-06-24'
 papers:
   m8robxcAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Anytime-Constrained Equilibria in Polynomial Time
     year: '2025'
   m8robxcAAAAJ:2osOgNQ5qMEC:
-    citations: 10
+    citations: 11
     title: Anytime-constrained reinforcement learning
     year: '2024'
   m8robxcAAAAJ:3fE2CSJIrl8C:
-    citations: 11
+    citations: 12
     title: "Thirty-Seventh AAAI Conference on Artificial Intelligence, AAAI 2023, Thirty-Fifth Conference on Innovative Applications of Artificial Intelligence, IAAI 2023, Thirteenth \u2026"
     year: '2023'
   m8robxcAAAAJ:5nxA0vEk-isC:
@@ -54,7 +54,7 @@ papers:
     title: Approximating pandora's box with correlations
     year: '2021'
   m8robxcAAAAJ:eQOLeE2rZwMC:
-    citations: 11
+    citations: 12
     title: 'Various misleading visual features in misleading graphs: Do they truly deceive us?'
     year: '2024'
   m8robxcAAAAJ:hqOjcs7Dif8C:
